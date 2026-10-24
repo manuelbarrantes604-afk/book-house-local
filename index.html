@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Barrantes Stays · Bentonville & Springdale homes</title>
+<title>Book House Local · Northwest Arkansas</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%231f4d3a%22/%3E%3Cpath d=%22M14 34 32 18l18 16v14H14z%22 fill=%22%23f4efe6%22/%3E%3C/svg%3E">
-<meta name="description" content="Book our two Northwest Arkansas homes directly: Close to It All in Bentonville and Villa Nica in Springdale. Sleeps 10, same price as our listing.">
-<meta property="og:title" content="Barrantes Stays · Book direct in Bentonville & Springdale">
+<meta name="description" content="Book House Local: book local homes in Northwest Arkansas directly. Homes in Bentonville and Springdale, each with its own photos, calendar and price.">
+<meta property="og:title" content="Book House Local · Northwest Arkansas">
 <meta property="og:image" content="img/bentonville/01.jpg">
 <meta name="theme-color" content="#1f3a2c">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,43 +17,39 @@
 </head>
 <body>
 <header class="top" id="top">
-  <a class="logo" href="#"><span class="logo-mark" aria-hidden="true">B</span><span class="brand-name"></span></a>
-  <nav class="nav">
-    <a href="#homes" data-i18n="nav_homes">Homes</a>
-    <a href="#compare" data-i18n="nav_compare">Compare</a>
-    <a href="#map" data-i18n="nav_map">Map</a>
-    <a href="#reviews" data-i18n="nav_reviews">Reviews</a>
-    <a href="#faq" data-i18n="nav_faq">FAQ</a>
-  </nav>
+  <a class="logo" href="./" data-nav="index"><span class="logo-mark" aria-hidden="true" id="logoMark">B</span><span class="brand-lock"><span class="brand-name"></span><small class="brand-tag"></small></span></a>
+  <nav class="nav" id="nav"></nav>
   <div class="top-right">
     <div class="lang" role="group" aria-label="Language"><button data-lang="en" class="on">EN</button><button data-lang="es">ES</button></div>
-    <a class="btn btn-dark btn-sm" href="#book" data-i18n="book_now">Book now</a>
+    <a class="btn btn-dark btn-sm" href="#homes" id="topCta" data-i18n="book_now">Book now</a>
   </div>
 </header>
 
-<section class="hero">
+<section class="hero v-index">
   <div class="hero-mosaic" id="heroMosaic"></div>
   <div class="hero-shade"></div>
   <div class="hero-copy">
-    <p class="eyebrow" data-i18n="hero_eyebrow">Bentonville · Springdale · Arkansas</p>
+    <p class="eyebrow" id="heroEyebrow"></p>
     <h1 id="heroTitle"></h1>
-    <p class="hero-sub" data-i18n="hero_sub">Two spacious homes that sleep 10, hosted by Manuel. Same price as our listing, booked straight with us.</p>
+    <p class="hero-sub" data-i18n="hero_sub"></p>
+    <div class="loc-filter" id="locFilter" role="tablist" aria-label="Location"></div>
     <form class="search" id="heroSearch">
-      <label><span data-i18n="home">Home</span><select id="hsHome"></select></label>
       <label><span data-i18n="check_in">Check-in</span><input type="date" id="hsIn"></label>
       <label><span data-i18n="check_out">Checkout</span><input type="date" id="hsOut"></label>
       <label class="g"><span data-i18n="guests">Guests</span><select id="hsGuests"></select></label>
-      <button class="btn btn-accent" type="submit" data-i18n="check_avail">Check availability</button>
+      <button class="btn btn-accent" type="submit" data-i18n="search">Search</button>
     </form>
   </div>
 </section>
 
-<section class="picker wrap" id="homes">
-  <h2 class="sec-title" data-i18n="choose_home">Choose your home</h2>
-  <div class="pick-cards" id="pickCards"></div>
+<section class="listings wrap v-index" id="homes">
+  <div class="list-head"><h2 class="sec-title" id="listTitle"></h2><div class="list-sub fine" id="listSub"></div></div>
+  <div class="list-cards" id="listCards"></div>
 </section>
 
-<main class="wrap detail" id="detail">
+<div class="crumbs wrap v-listing" id="crumbs"></div>
+
+<main class="wrap detail v-listing" id="detail">
   <div class="gallery" id="gallery"></div>
   <div class="detail-grid">
     <div class="detail-main">
@@ -90,12 +86,7 @@
   </div>
 </main>
 
-<section class="compare wrap" id="compare">
-  <h2 class="sec-title" data-i18n="compare_title">Compare the homes</h2>
-  <div id="compareBox"></div>
-</section>
-
-<section class="mapsec" id="map">
+<section class="mapsec v-listing" id="map">
   <div class="wrap"><h2 class="sec-title" data-i18n="map_title">Where you'll be</h2></div>
   <div class="map-wrap wrap">
     <div id="leaflet"></div>
@@ -103,15 +94,14 @@
   </div>
 </section>
 
-<section class="reviews wrap" id="reviews">
+<section class="reviews wrap v-listing" id="reviews">
   <h2 class="sec-title" data-i18n="reviews_title">What guests say</h2>
-  <div class="rev-tabs" id="revTabs"></div>
   <div class="rev-summary" id="revSummary"></div>
   <div class="rev-grid" id="revGrid"></div>
   <div class="center"><button class="btn btn-ghost" id="revMore" data-i18n="show_more">Show more reviews</button></div>
 </section>
 
-<section class="host wrap" id="hostSec"></section>
+<section class="host wrap v-listing" id="hostSec"></section>
 
 <section class="faq wrap" id="faq">
   <h2 class="sec-title" data-i18n="faq_title">Questions</h2>
@@ -125,7 +115,7 @@
   </div>
 </footer>
 
-<div class="mbar" id="mbar">
+<div class="mbar v-listing" id="mbar">
   <div id="mbarPrice"></div>
   <button class="btn btn-accent" id="mbarBtn" data-i18n="check_avail">Check availability</button>
 </div>
