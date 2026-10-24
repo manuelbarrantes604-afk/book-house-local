@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Barrantes Stays · Bentonville & Springdale homes</title>
+<meta name="description" content="Book our two Northwest Arkansas homes directly: Close to It All in Bentonville and Villa Nica in Springdale. Sleeps 10, same price as our listing.">
+<meta property="og:title" content="Barrantes Stays · Book direct in Bentonville & Springdale">
+<meta property="og:image" content="img/bentonville/01.jpg">
+<meta name="theme-color" content="#1f3a2c">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/leaflet/leaflet.css">
+<link rel="stylesheet" href="assets/app.css">
+<script src="config.js"></script>
+</head>
+<body>
+<header class="top" id="top">
+  <a class="logo" href="#"><span class="logo-mark" aria-hidden="true">B</span><span class="brand-name"></span></a>
+  <nav class="nav">
+    <a href="#homes" data-i18n="nav_homes">Homes</a>
+    <a href="#compare" data-i18n="nav_compare">Compare</a>
+    <a href="#map" data-i18n="nav_map">Map</a>
+    <a href="#reviews" data-i18n="nav_reviews">Reviews</a>
+    <a href="#faq" data-i18n="nav_faq">FAQ</a>
+  </nav>
+  <div class="top-right">
+    <div class="lang" role="group" aria-label="Language"><button data-lang="en" class="on">EN</button><button data-lang="es">ES</button></div>
+    <a class="btn btn-dark btn-sm" href="#book" data-i18n="book_now">Book now</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-mosaic" id="heroMosaic"></div>
+  <div class="hero-shade"></div>
+  <div class="hero-copy">
+    <p class="eyebrow" data-i18n="hero_eyebrow">Bentonville · Springdale · Arkansas</p>
+    <h1 id="heroTitle"></h1>
+    <p class="hero-sub" data-i18n="hero_sub">Two spacious homes that sleep 10, hosted by Manuel. Same price as our listing, booked straight with us.</p>
+    <form class="search" id="heroSearch">
+      <label><span data-i18n="home">Home</span><select id="hsHome"></select></label>
+      <label><span data-i18n="check_in">Check-in</span><input type="date" id="hsIn"></label>
+      <label><span data-i18n="check_out">Checkout</span><input type="date" id="hsOut"></label>
+      <label class="g"><span data-i18n="guests">Guests</span><select id="hsGuests"></select></label>
+      <button class="btn btn-accent" type="submit" data-i18n="check_avail">Check availability</button>
+    </form>
+  </div>
+</section>
+
+<section class="picker wrap" id="homes">
+  <h2 class="sec-title" data-i18n="choose_home">Choose your home</h2>
+  <div class="pick-cards" id="pickCards"></div>
+</section>
+
+<main class="wrap detail" id="detail">
+  <div class="gallery" id="gallery"></div>
+  <div class="detail-grid">
+    <div class="detail-main">
+      <div class="d-head" id="dHead"></div>
+      <div class="highlights" id="dHighlights"></div>
+      <div class="block" id="dDesc"></div>
+      <div class="block" id="dRooms"></div>
+      <div class="block" id="dAmen"></div>
+      <div class="block" id="dRules"></div>
+    </div>
+    <aside class="book" id="book">
+      <div class="book-card" id="bookCard">
+        <div class="bk-sheet-head"><b data-i18n="your_trip">Your trip</b><button class="x" id="sheetClose" aria-label="Close">×</button></div>
+        <div class="bk-price" id="bkPrice"></div>
+        <div class="bk-fields">
+          <button class="bk-date" id="bkIn"><span data-i18n="check_in">Check-in</span><b>—</b></button>
+          <button class="bk-date" id="bkOut"><span data-i18n="check_out">Checkout</span><b>—</b></button>
+        </div>
+        <div class="cal" id="cal"></div>
+        <div class="cal-hint" id="calHint"></div>
+        <div class="guests-row">
+          <div><b data-i18n="guests">Guests</b><small data-i18n="guests_sub">Adults & children · max 10</small></div>
+          <div class="stepper"><button data-step="-1" data-k="guests">−</button><output id="gCount">2</output><button data-step="1" data-k="guests">+</button></div>
+        </div>
+        <div class="guests-row">
+          <div><b data-i18n="pets">Pets</b><small data-i18n="pets_sub">Up to 2</small></div>
+          <div class="stepper"><button data-step="-1" data-k="pets">−</button><output id="pCount">0</output><button data-step="1" data-k="pets">+</button></div>
+        </div>
+        <div class="breakdown" id="breakdown"></div>
+        <button class="btn btn-accent btn-block" id="reserveBtn" data-i18n="reserve">Reserve</button>
+        <p class="fine" id="bkFine"></p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<section class="compare wrap" id="compare">
+  <h2 class="sec-title" data-i18n="compare_title">Compare the homes</h2>
+  <div id="compareBox"></div>
+</section>
+
+<section class="mapsec" id="map">
+  <div class="wrap"><h2 class="sec-title" data-i18n="map_title">Where you'll be</h2></div>
+  <div class="map-wrap wrap">
+    <div id="leaflet"></div>
+    <div class="map-side" id="mapSide"></div>
+  </div>
+</section>
+
+<section class="reviews wrap" id="reviews">
+  <h2 class="sec-title" data-i18n="reviews_title">What guests say</h2>
+  <div class="rev-tabs" id="revTabs"></div>
+  <div class="rev-summary" id="revSummary"></div>
+  <div class="rev-grid" id="revGrid"></div>
+  <div class="center"><button class="btn btn-ghost" id="revMore" data-i18n="show_more">Show more reviews</button></div>
+</section>
+
+<section class="host wrap" id="hostSec"></section>
+
+<section class="faq wrap" id="faq">
+  <h2 class="sec-title" data-i18n="faq_title">Questions</h2>
+  <div id="faqList"></div>
+</section>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div><span class="brand-name"></span><p class="fine" id="freshness"></p></div>
+    <div class="fine" id="footNote"></div>
+  </div>
+</footer>
+
+<div class="mbar" id="mbar">
+  <div id="mbarPrice"></div>
+  <button class="btn btn-accent" id="mbarBtn" data-i18n="check_avail">Check availability</button>
+</div>
+
+<div class="lb" id="lb" hidden>
+  <div class="lb-top"><div class="lb-chips" id="lbChips"></div><span id="lbCount"></span><button class="x" id="lbClose" aria-label="Close">×</button></div>
+  <button class="lb-nav prev" id="lbPrev" aria-label="Previous">‹</button>
+  <figure class="lb-fig"><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb-nav next" id="lbNext" aria-label="Next">›</button>
+  <div class="lb-strip" id="lbStrip"></div>
+</div>
+
+<div class="modal" id="modal" hidden><div class="modal-card" role="dialog" aria-modal="true"><button class="x" id="modalClose" aria-label="Close">×</button><div id="modalBody"></div></div></div>
+
+<script src="assets/leaflet/leaflet.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1654 @@
+{
+ "generated_at": "2026-10-24T18:48:56-0400",
+ "source": "public listing pages",
+ "homes": [
+  {
+   "slug": "bentonville",
+   "airbnb_id": "1738770906932545842",
+   "name": "Close to It All",
+   "city": "Bentonville",
+   "cleaning_fee": 150,
+   "parking_note_min_guests": 5,
+   "title": "Close to It All | Walmart HQ + Downtown",
+   "overview": [
+    "10 guests",
+    "3 bedrooms",
+    "6 beds",
+    "2 baths"
+   ],
+   "capacity": 10,
+   "lat": 36.3542,
+   "lng": -94.2095,
+   "exact_location": true,
+   "location_summary": "Mountain biking, a museum trail, and a farm-to-table dining scene anchor this Ozark city with art, greenways, and an outdoorsy pace.",
+   "description": [
+    {
+     "title": null,
+     "paras": [
+      "Stay close to everything Bentonville has to offer! This comfortable home sleeps up to 10 guests and is just minutes from the Walmart Home Office, Downtown Bentonville, Crystal Bridges Museum, and premier mountain biking trails. Enjoy a fully equipped kitchen, fast Wi-Fi, Smart TVs with YouTube TV, a large private patio, washer and dryer, and plenty of parking. Whether you're here for work or vacation, you'll have everything you need for a relaxing stay."
+     ]
+    },
+    {
+     "title": "The space",
+     "paras": [
+      "Enjoy a comfortable stay in this spacious Bentonville home, just minutes from Downtown Bentonville, the Walmart Home Office, Crystal Bridges Museum, restaurants, shopping, and bike trails. With room for up to 10 guests, it's a great choice for families, business travelers, and longer stays.",
+      "The home features 3 bedrooms, a dedicated office with a sofa bed, and a living room with an additional sofa bed. You'll also have a fully equipped kitchen, fast Wi-Fi, YouTube TV, a printer/workspace, and an attached garage.",
+      "Step outside to the large patio, covered front porch, spacious backyard, and trampoline, making it easy for everyone to enjoy time outdoors.",
+      "Whether you're visiting for work or vacation, you'll have everything you need for a comfortable and convenient stay in one of Bentonville's best locations."
+     ]
+    }
+   ],
+   "highlights": [
+    {
+     "title": "In Bentonville, near it all by car",
+     "body": "A short drive to Crystal Bridges Museum, downtown dining, and mountain biking trails."
+    },
+    {
+     "title": "Full kitchen with patio and free parking",
+     "body": "A full kitchen, washer and dryer, free parking, and a large patio with a backyard for downtime."
+    },
+    {
+     "title": "Manuel is a responsive host",
+     "body": "Guests highlight Manuel as a friendly and responsive host who communicates throughout the stay."
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/bentonville/01.jpg",
+     "thumb": "img/bentonville/01-s.jpg",
+     "room": "Front yard"
+    },
+    {
+     "src": "img/bentonville/02.jpg",
+     "thumb": "img/bentonville/02-s.jpg",
+     "room": "Backyard"
+    },
+    {
+     "src": "img/bentonville/03.jpg",
+     "thumb": "img/bentonville/03-s.jpg",
+     "room": "Living room"
+    },
+    {
+     "src": "img/bentonville/04.jpg",
+     "thumb": "img/bentonville/04-s.jpg",
+     "room": "Backyard"
+    },
+    {
+     "src": "img/bentonville/05.jpg",
+     "thumb": "img/bentonville/05-s.jpg",
+     "room": "Backyard"
+    },
+    {
+     "src": "img/bentonville/06.jpg",
+     "thumb": "img/bentonville/06-s.jpg",
+     "room": "Full bathroom 2"
+    },
+    {
+     "src": "img/bentonville/07.jpg",
+     "thumb": "img/bentonville/07-s.jpg",
+     "room": "Full bathroom 2"
+    },
+    {
+     "src": "img/bentonville/08.jpg",
+     "thumb": "img/bentonville/08-s.jpg",
+     "room": "Bedroom 3"
+    },
+    {
+     "src": "img/bentonville/09.jpg",
+     "thumb": "img/bentonville/09-s.jpg",
+     "room": "Dining area"
+    },
+    {
+     "src": "img/bentonville/10.jpg",
+     "thumb": "img/bentonville/10-s.jpg",
+     "room": "Front yard"
+    },
+    {
+     "src": "img/bentonville/11.jpg",
+     "thumb": "img/bentonville/11-s.jpg",
+     "room": "Front yard"
+    },
+    {
+     "src": "img/bentonville/12.jpg",
+     "thumb": "img/bentonville/12-s.jpg",
+     "room": "Front yard"
+    },
+    {
+     "src": "img/bentonville/13.jpg",
+     "thumb": "img/bentonville/13-s.jpg",
+     "room": "Garage"
+    },
+    {
+     "src": "img/bentonville/14.jpg",
+     "thumb": "img/bentonville/14-s.jpg",
+     "room": "Front yard"
+    },
+    {
+     "src": "img/bentonville/15.jpg",
+     "thumb": "img/bentonville/15-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/bentonville/16.jpg",
+     "thumb": "img/bentonville/16-s.jpg",
+     "room": "Full kitchen"
+    },
+    {
+     "src": "img/bentonville/17.jpg",
+     "thumb": "img/bentonville/17-s.jpg",
+     "room": "Full kitchen"
+    },
+    {
+     "src": "img/bentonville/18.jpg",
+     "thumb": "img/bentonville/18-s.jpg",
+     "room": "Living room"
+    },
+    {
+     "src": "img/bentonville/19.jpg",
+     "thumb": "img/bentonville/19-s.jpg",
+     "room": "Bedroom 3"
+    },
+    {
+     "src": "img/bentonville/20.jpg",
+     "thumb": "img/bentonville/20-s.jpg",
+     "room": "Backyard"
+    },
+    {
+     "src": "img/bentonville/21.jpg",
+     "thumb": "img/bentonville/21-s.jpg",
+     "room": "Backyard"
+    },
+    {
+     "src": "img/bentonville/22.jpg",
+     "thumb": "img/bentonville/22-s.jpg",
+     "room": "Backyard"
+    },
+    {
+     "src": "img/bentonville/23.jpg",
+     "thumb": "img/bentonville/23-s.jpg",
+     "room": "Backyard"
+    },
+    {
+     "src": "img/bentonville/24.jpg",
+     "thumb": "img/bentonville/24-s.jpg",
+     "room": "Backyard"
+    },
+    {
+     "src": "img/bentonville/25.jpg",
+     "thumb": "img/bentonville/25-s.jpg",
+     "room": "Backyard"
+    },
+    {
+     "src": "img/bentonville/26.jpg",
+     "thumb": "img/bentonville/26-s.jpg",
+     "room": "Laundry area"
+    },
+    {
+     "src": "img/bentonville/27.jpg",
+     "thumb": "img/bentonville/27-s.jpg",
+     "room": "Bedroom 2"
+    },
+    {
+     "src": "img/bentonville/28.jpg",
+     "thumb": "img/bentonville/28-s.jpg",
+     "room": "Bedroom 1"
+    },
+    {
+     "src": "img/bentonville/29.jpg",
+     "thumb": "img/bentonville/29-s.jpg",
+     "room": "Bedroom 2"
+    },
+    {
+     "src": "img/bentonville/30.jpg",
+     "thumb": "img/bentonville/30-s.jpg",
+     "room": "Bedroom 2"
+    },
+    {
+     "src": "img/bentonville/31.jpg",
+     "thumb": "img/bentonville/31-s.jpg",
+     "room": "Bedroom 3"
+    },
+    {
+     "src": "img/bentonville/32.jpg",
+     "thumb": "img/bentonville/32-s.jpg",
+     "room": "Full bathroom 1"
+    },
+    {
+     "src": "img/bentonville/33.jpg",
+     "thumb": "img/bentonville/33-s.jpg",
+     "room": "Full bathroom 1"
+    },
+    {
+     "src": "img/bentonville/34.jpg",
+     "thumb": "img/bentonville/34-s.jpg",
+     "room": "Full bathroom 2"
+    },
+    {
+     "src": "img/bentonville/35.jpg",
+     "thumb": "img/bentonville/35-s.jpg",
+     "room": "Office"
+    }
+   ],
+   "rooms": [
+    {
+     "name": "Bedroom 1",
+     "beds": "1 king bed",
+     "img": "img/bentonville/room-bedroom-1.jpg"
+    },
+    {
+     "name": "Bedroom 2",
+     "beds": "2 single beds",
+     "img": "img/bentonville/room-bedroom-2.jpg"
+    },
+    {
+     "name": "Bedroom 3",
+     "beds": "1 queen bed",
+     "img": "img/bentonville/room-bedroom-3.jpg"
+    },
+    {
+     "name": "Living room",
+     "beds": "2 sofa beds",
+     "img": "img/bentonville/room-living-room.jpg"
+    }
+   ],
+   "amenities": [
+    {
+     "group": "Bathroom",
+     "items": [
+      {
+       "title": "Bathtub",
+       "icon": "SYSTEM_BATHTUB",
+       "available": true
+      },
+      {
+       "title": "Hair dryer",
+       "icon": "SYSTEM_HAIRDRYER",
+       "available": true
+      },
+      {
+       "title": "Cleaning products",
+       "icon": "SYSTEM_CLEANING_SUPPLIES",
+       "available": true
+      },
+      {
+       "title": "Shampoo",
+       "icon": "SYSTEM_SHAMPOO",
+       "available": true
+      },
+      {
+       "title": "Conditioner",
+       "icon": "SYSTEM_SHAMPOO",
+       "available": true
+      },
+      {
+       "title": "Body soap",
+       "icon": "SYSTEM_SOAP",
+       "available": true
+      },
+      {
+       "title": "Bidet",
+       "icon": "SYSTEM_TOILET_BIDET",
+       "available": true
+      },
+      {
+       "title": "Hot water",
+       "icon": "SYSTEM_HOT_WATER",
+       "available": true
+      },
+      {
+       "title": "Shower gel",
+       "icon": "SYSTEM_SOAP",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Bedroom and laundry",
+     "items": [
+      {
+       "title": "Washer",
+       "icon": "SYSTEM_WASHER",
+       "available": true
+      },
+      {
+       "title": "Dryer",
+       "icon": "SYSTEM_DRYER",
+       "available": true
+      },
+      {
+       "title": "Essentials",
+       "icon": "SYSTEM_TOILETRIES",
+       "available": true
+      },
+      {
+       "title": "Hangers",
+       "icon": "SYSTEM_HANGERS",
+       "available": true
+      },
+      {
+       "title": "Bed linens",
+       "icon": "SYSTEM_BLANKETS",
+       "available": true
+      },
+      {
+       "title": "Extra pillows and blankets",
+       "icon": "SYSTEM_PILLOW",
+       "available": true
+      },
+      {
+       "title": "Iron",
+       "icon": "SYSTEM_IRON",
+       "available": true
+      },
+      {
+       "title": "Clothing storage",
+       "icon": "SYSTEM_WARDROBE",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Entertainment",
+     "items": [
+      {
+       "title": "TV",
+       "icon": "SYSTEM_TV",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Heating and cooling",
+     "items": [
+      {
+       "title": "Air conditioning",
+       "icon": "SYSTEM_SNOWFLAKE",
+       "available": true
+      },
+      {
+       "title": "Indoor fireplace",
+       "icon": "SYSTEM_FIREPLACE",
+       "available": true
+      },
+      {
+       "title": "Heating",
+       "icon": "SYSTEM_THERMOMETER",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Home safety",
+     "items": [
+      {
+       "title": "Smoke alarm",
+       "icon": "SYSTEM_DETECTOR_SMOKE",
+       "available": true
+      },
+      {
+       "title": "Carbon monoxide alarm",
+       "icon": "SYSTEM_DETECTOR_CO",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Internet and office",
+     "items": [
+      {
+       "title": "Wifi",
+       "icon": "SYSTEM_WI_FI",
+       "available": true
+      },
+      {
+       "title": "Dedicated workspace",
+       "icon": "SYSTEM_WORKSPACE",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Kitchen and dining",
+     "items": [
+      {
+       "title": "Kitchen",
+       "icon": "SYSTEM_COOKING_BASICS",
+       "available": true
+      },
+      {
+       "title": "Refrigerator",
+       "icon": "SYSTEM_REFRIGERATOR",
+       "available": true
+      },
+      {
+       "title": "Cooking basics",
+       "icon": "SYSTEM_COOKING_BASICS",
+       "available": true
+      },
+      {
+       "title": "Stove",
+       "icon": "SYSTEM_STOVE",
+       "available": true
+      },
+      {
+       "title": "Coffee maker",
+       "icon": "SYSTEM_COFFEE_MAKER",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Outdoor",
+     "items": [
+      {
+       "title": "Outdoor furniture",
+       "icon": "SYSTEM_ROOFTOP_DECK",
+       "available": true
+      },
+      {
+       "title": "BBQ grill",
+       "icon": "SYSTEM_GRILL",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Parking and facilities",
+     "items": [
+      {
+       "title": "Free parking on premises",
+       "icon": "SYSTEM_MAPS_CAR_RENTAL",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Services",
+     "items": [
+      {
+       "title": "Pets allowed",
+       "icon": "SYSTEM_PETS",
+       "available": true
+      },
+      {
+       "title": "Self check-in",
+       "icon": "SYSTEM_KEY",
+       "available": true
+      },
+      {
+       "title": "Smart lock",
+       "icon": "SYSTEM_LOCK_ON_DOOR",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Not included",
+     "items": [
+      {
+       "title": "Exterior security cameras on property",
+       "icon": "SYSTEM_NO_SURVEILLANCE",
+       "available": false
+      }
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "title": "Up to 10 overnight guests",
+     "detail": null,
+     "type": "HOUSE_RULES_PERSON_CAPACITY"
+    },
+    {
+     "title": "Pets allowed",
+     "detail": "2 maximum",
+     "type": "HOUSE_RULES_PETS"
+    }
+   ],
+   "check_in": "Check in after 4:00 PM",
+   "check_out_items": [
+    "Check out before 10:00 AM",
+    "Self check-in with smart lock"
+   ],
+   "safety": [
+    "Carbon monoxide alarm installed",
+    "Smoke alarm installed"
+   ],
+   "rating": {
+    "overall": 4.4,
+    "count": 5,
+    "categories": {
+     "cleanliness": 4.4,
+     "accuracy": 4.6,
+     "checkin": 5.0,
+     "communication": 5.0,
+     "location": 4.8,
+     "value": 4.4
+    }
+   },
+   "reviews": [
+    {
+     "name": "Zachary",
+     "date": "2026-10-11",
+     "rating": 5,
+     "text": "Great stay!",
+     "lang": "en"
+    },
+    {
+     "name": "Amy",
+     "date": "2026-10-03",
+     "rating": 3,
+     "text": "Manuel was very good at communicating with me and the house was just as pictured other than a couple of messy beds. I did let Manuel know and he was very concerned about it.",
+     "lang": "en"
+    },
+    {
+     "name": "Shonda",
+     "date": "2026-10-02",
+     "rating": 4,
+     "text": "Great location, less than a 10-min drive to everything (restaurants, museums, biking trails) in Bentonville. Manuel was a very friendly and responsive host. The backyard was perfect for the pup, plenty big to play ball! We had four people stay here, so plenty of space and the price was fair. The beds and couch weren't the most comfortable, but we managed just fine for our stay.",
+     "lang": "en"
+    },
+    {
+     "name": "Sean",
+     "date": "2026-09-24",
+     "rating": 5,
+     "text": "Great place in a perfect location. Additionally, Manuel was incredibly helpful and responsive. Highly recommend.",
+     "lang": "en"
+    },
+    {
+     "name": "Lisa",
+     "date": "2026-09-21",
+     "rating": 5,
+     "text": "We had a great stay while visiting our Son. So close to everything and very quiet!",
+     "lang": "en"
+    }
+   ],
+   "review_tags": [],
+   "host": {
+    "name": "Manuel",
+    "superhost": true,
+    "rating": 4.83,
+    "reviews": 36,
+    "years": 2,
+    "response": [
+     "Response rate: 100%",
+     "Responds within an hour"
+    ],
+    "about": "We are dedicated hosts offering a cozy stay in Springdale, Arkansas. Our property is perfect for professionals, families, or anyone visiting the area. What sets us apart? A warm welcome and a comfortable home designed to make your stay relaxing and enjoyable."
+   }
+  },
+  {
+   "slug": "springdale",
+   "airbnb_id": "1231177871104231130",
+   "name": "Villa Nica",
+   "city": "Springdale",
+   "cleaning_fee": 150,
+   "title": "Sleeps 10 · 5 Beds · Near Downtown",
+   "overview": [
+    "10 guests",
+    "3 bedrooms",
+    "5 beds",
+    "2 baths"
+   ],
+   "capacity": 10,
+   "lat": 36.19025,
+   "lng": -94.14295,
+   "exact_location": false,
+   "location_summary": "Rodeo culture and bilingual communities give this Arkansas city a lively identity, set against the Ozark foothills.",
+   "description": [
+    {
+     "title": null,
+     "paras": [
+      "Wake up at Villa Nica, named in honor of Nicaragua! There are two houses on the property—you’ll stay in the second house behind the front one. Perfect for groups, it offers 5 beds (2 fulls, 3 queens) for up to 10 guests. Just 4 minutes from downtown, 1 minute from the library, across from Springdale High School. Enjoy vaulted ceilings, ping pong, video games, and more.",
+      "Did you know? 25% of proceeds from your booking go to Nicaraguan schools to help kids attend class and build a brighter future."
+     ]
+    },
+    {
+     "title": "The space",
+     "paras": [
+      "This newly built 2200 sqft home is perfect for large groups and families! With 5 comfortable beds (2 fulls, 3 queens), vaulted ceilings, and spacious living areas, everyone will have room to relax and unwind. The open-concept living room and dining areas are ideal for gatherings, movie nights, or game time.",
+      "There are two houses on the property—you’ll stay in the second house behind the front one—so you get privacy while still enjoying the shared space. The property includes a large gravel parking lot with plenty of space for multiple vehicles."
+     ]
+    },
+    {
+     "title": "Guest access",
+     "paras": [
+      "The property is self-check-in. The code to unlock the door will be shared with you 24 hours before your check-in time."
+     ]
+    },
+    {
+     "title": "Other things to note",
+     "paras": [
+      "There is a spiral staircase that you need to go up to get to the beds. Baby gates are installed at bottom and top if needed. Also, ceilings are triangular in nature so be careful to not bump your head!"
+     ]
+    }
+   ],
+   "highlights": [
+    {
+     "title": "In Springdale, near downtown",
+     "body": "About a 15-min walk to Walter Turnbow Park at Shiloh Square in downtown Springdale"
+    },
+    {
+     "title": "Spacious home built for groups",
+     "body": "A 2,200 sq ft open-concept layout with vaulted ceilings, a ping pong table, and a backyard BBQ area"
+    },
+    {
+     "title": "A responsive, attentive host",
+     "body": "Guests highlight how responsive and helpful the host is, with many noting quick replies and check-ins"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/springdale/01.jpg",
+     "thumb": "img/springdale/01-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/02.jpg",
+     "thumb": "img/springdale/02-s.jpg",
+     "room": "Dining area"
+    },
+    {
+     "src": "img/springdale/03.jpg",
+     "thumb": "img/springdale/03-s.jpg",
+     "room": "Bedroom 3"
+    },
+    {
+     "src": "img/springdale/04.jpg",
+     "thumb": "img/springdale/04-s.jpg",
+     "room": "Dining area"
+    },
+    {
+     "src": "img/springdale/05.jpg",
+     "thumb": "img/springdale/05-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/06.jpg",
+     "thumb": "img/springdale/06-s.jpg",
+     "room": "Kitchenette"
+    },
+    {
+     "src": "img/springdale/07.jpg",
+     "thumb": "img/springdale/07-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/08.jpg",
+     "thumb": "img/springdale/08-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/09.jpg",
+     "thumb": "img/springdale/09-s.jpg",
+     "room": "Laundry area"
+    },
+    {
+     "src": "img/springdale/10.jpg",
+     "thumb": "img/springdale/10-s.jpg",
+     "room": "Kitchenette"
+    },
+    {
+     "src": "img/springdale/11.jpg",
+     "thumb": "img/springdale/11-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/12.jpg",
+     "thumb": "img/springdale/12-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/13.jpg",
+     "thumb": "img/springdale/13-s.jpg",
+     "room": "Living room"
+    },
+    {
+     "src": "img/springdale/14.jpg",
+     "thumb": "img/springdale/14-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/15.jpg",
+     "thumb": "img/springdale/15-s.jpg",
+     "room": "Bedroom 3"
+    },
+    {
+     "src": "img/springdale/16.jpg",
+     "thumb": "img/springdale/16-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/17.jpg",
+     "thumb": "img/springdale/17-s.jpg",
+     "room": "Bedroom 3"
+    },
+    {
+     "src": "img/springdale/18.jpg",
+     "thumb": "img/springdale/18-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/19.jpg",
+     "thumb": "img/springdale/19-s.jpg",
+     "room": "Bedroom 2"
+    },
+    {
+     "src": "img/springdale/20.jpg",
+     "thumb": "img/springdale/20-s.jpg",
+     "room": "Bedroom 2"
+    },
+    {
+     "src": "img/springdale/21.jpg",
+     "thumb": "img/springdale/21-s.jpg",
+     "room": "Bedroom 1"
+    },
+    {
+     "src": "img/springdale/22.jpg",
+     "thumb": "img/springdale/22-s.jpg",
+     "room": "Living room"
+    },
+    {
+     "src": "img/springdale/23.jpg",
+     "thumb": "img/springdale/23-s.jpg",
+     "room": "Workspace"
+    },
+    {
+     "src": "img/springdale/24.jpg",
+     "thumb": "img/springdale/24-s.jpg",
+     "room": "Bedroom 1"
+    },
+    {
+     "src": "img/springdale/25.jpg",
+     "thumb": "img/springdale/25-s.jpg",
+     "room": "Full bathroom 1"
+    },
+    {
+     "src": "img/springdale/26.jpg",
+     "thumb": "img/springdale/26-s.jpg",
+     "room": "Bedroom 2"
+    },
+    {
+     "src": "img/springdale/27.jpg",
+     "thumb": "img/springdale/27-s.jpg",
+     "room": "Full bathroom 2"
+    },
+    {
+     "src": "img/springdale/28.jpg",
+     "thumb": "img/springdale/28-s.jpg",
+     "room": "Living room"
+    },
+    {
+     "src": "img/springdale/29.jpg",
+     "thumb": "img/springdale/29-s.jpg",
+     "room": "Full bathroom 2"
+    },
+    {
+     "src": "img/springdale/30.jpg",
+     "thumb": "img/springdale/30-s.jpg",
+     "room": "Full bathroom 1"
+    },
+    {
+     "src": "img/springdale/31.jpg",
+     "thumb": "img/springdale/31-s.jpg",
+     "room": "Dining area"
+    },
+    {
+     "src": "img/springdale/32.jpg",
+     "thumb": "img/springdale/32-s.jpg",
+     "room": "Kitchenette"
+    },
+    {
+     "src": "img/springdale/33.jpg",
+     "thumb": "img/springdale/33-s.jpg",
+     "room": "Dining area"
+    },
+    {
+     "src": "img/springdale/34.jpg",
+     "thumb": "img/springdale/34-s.jpg",
+     "room": "Kitchenette"
+    },
+    {
+     "src": "img/springdale/35.jpg",
+     "thumb": "img/springdale/35-s.jpg",
+     "room": "Living room"
+    },
+    {
+     "src": "img/springdale/36.jpg",
+     "thumb": "img/springdale/36-s.jpg",
+     "room": "Living room"
+    },
+    {
+     "src": "img/springdale/37.jpg",
+     "thumb": "img/springdale/37-s.jpg",
+     "room": "Living room"
+    },
+    {
+     "src": "img/springdale/38.jpg",
+     "thumb": "img/springdale/38-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/39.jpg",
+     "thumb": "img/springdale/39-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/40.jpg",
+     "thumb": "img/springdale/40-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/41.jpg",
+     "thumb": "img/springdale/41-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/42.jpg",
+     "thumb": "img/springdale/42-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/43.jpg",
+     "thumb": "img/springdale/43-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/44.jpg",
+     "thumb": "img/springdale/44-s.jpg",
+     "room": "Exterior"
+    },
+    {
+     "src": "img/springdale/45.jpg",
+     "thumb": "img/springdale/45-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/46.jpg",
+     "thumb": "img/springdale/46-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/47.jpg",
+     "thumb": "img/springdale/47-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/48.jpg",
+     "thumb": "img/springdale/48-s.jpg",
+     "room": "Full bathroom 2"
+    },
+    {
+     "src": "img/springdale/49.jpg",
+     "thumb": "img/springdale/49-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/50.jpg",
+     "thumb": "img/springdale/50-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/51.jpg",
+     "thumb": "img/springdale/51-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/52.jpg",
+     "thumb": "img/springdale/52-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/53.jpg",
+     "thumb": "img/springdale/53-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/54.jpg",
+     "thumb": "img/springdale/54-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/55.jpg",
+     "thumb": "img/springdale/55-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/56.jpg",
+     "thumb": "img/springdale/56-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/57.jpg",
+     "thumb": "img/springdale/57-s.jpg",
+     "room": "Bedroom 1"
+    },
+    {
+     "src": "img/springdale/58.jpg",
+     "thumb": "img/springdale/58-s.jpg",
+     "room": "Bedroom 1"
+    },
+    {
+     "src": "img/springdale/59.jpg",
+     "thumb": "img/springdale/59-s.jpg",
+     "room": "Bedroom 3"
+    },
+    {
+     "src": "img/springdale/60.jpg",
+     "thumb": "img/springdale/60-s.jpg",
+     "room": "Additional photos"
+    },
+    {
+     "src": "img/springdale/61.jpg",
+     "thumb": "img/springdale/61-s.jpg",
+     "room": "Full bathroom 2"
+    },
+    {
+     "src": "img/springdale/62.jpg",
+     "thumb": "img/springdale/62-s.jpg",
+     "room": "Full bathroom 1"
+    },
+    {
+     "src": "img/springdale/63.jpg",
+     "thumb": "img/springdale/63-s.jpg",
+     "room": "Full bathroom 1"
+    }
+   ],
+   "rooms": [],
+   "amenities": [
+    {
+     "group": "Bathroom",
+     "items": [
+      {
+       "title": "Bathtub",
+       "icon": "SYSTEM_BATHTUB",
+       "available": true
+      },
+      {
+       "title": "Hair dryer",
+       "icon": "SYSTEM_HAIRDRYER",
+       "available": true
+      },
+      {
+       "title": "Cleaning products",
+       "icon": "SYSTEM_CLEANING_SUPPLIES",
+       "available": true
+      },
+      {
+       "title": "Shampoo",
+       "icon": "SYSTEM_SHAMPOO",
+       "available": true
+      },
+      {
+       "title": "Conditioner",
+       "icon": "SYSTEM_SHAMPOO",
+       "available": true
+      },
+      {
+       "title": "Body soap",
+       "icon": "SYSTEM_SOAP",
+       "available": true
+      },
+      {
+       "title": "Hot water",
+       "icon": "SYSTEM_HOT_WATER",
+       "available": true
+      },
+      {
+       "title": "Shower gel",
+       "icon": "SYSTEM_SOAP",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Bedroom and laundry",
+     "items": [
+      {
+       "title": "Washer",
+       "icon": "SYSTEM_WASHER",
+       "available": true
+      },
+      {
+       "title": "Dryer",
+       "icon": "SYSTEM_DRYER",
+       "available": true
+      },
+      {
+       "title": "Essentials",
+       "icon": "SYSTEM_TOILETRIES",
+       "available": true
+      },
+      {
+       "title": "Hangers",
+       "icon": "SYSTEM_HANGERS",
+       "available": true
+      },
+      {
+       "title": "Bed linens",
+       "icon": "SYSTEM_BLANKETS",
+       "available": true
+      },
+      {
+       "title": "Extra pillows and blankets",
+       "icon": "SYSTEM_PILLOW",
+       "available": true
+      },
+      {
+       "title": "Iron",
+       "icon": "SYSTEM_IRON",
+       "available": true
+      },
+      {
+       "title": "Drying rack for clothing",
+       "icon": "SYSTEM_HANGERS",
+       "available": true
+      },
+      {
+       "title": "Clothing storage",
+       "icon": "SYSTEM_WARDROBE",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Entertainment",
+     "items": [
+      {
+       "title": "TV",
+       "icon": "SYSTEM_TV",
+       "available": true
+      },
+      {
+       "title": "Game console: Nintendo Switch",
+       "icon": "SYSTEM_VIDEO_GAME",
+       "available": true
+      },
+      {
+       "title": "Ping pong table",
+       "icon": "SYSTEM_PING_PONG",
+       "available": true
+      },
+      {
+       "title": "Books and reading material",
+       "icon": "SYSTEM_BOOK",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Family",
+     "items": [
+      {
+       "title": "Baby safety gates",
+       "icon": "SYSTEM_BABY_GATE",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Heating and cooling",
+     "items": [
+      {
+       "title": "Air conditioning",
+       "icon": "SYSTEM_SNOWFLAKE",
+       "available": true
+      },
+      {
+       "title": "Portable fans",
+       "icon": "SYSTEM_FAN_PORTABLE",
+       "available": true
+      },
+      {
+       "title": "Heating",
+       "icon": "SYSTEM_THERMOMETER",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Home safety",
+     "items": [
+      {
+       "title": "Exterior security cameras on property",
+       "icon": "SYSTEM_SURVEILLANCE",
+       "available": true
+      },
+      {
+       "title": "Smoke alarm",
+       "icon": "SYSTEM_DETECTOR_SMOKE",
+       "available": true
+      },
+      {
+       "title": "Carbon monoxide alarm",
+       "icon": "SYSTEM_DETECTOR_CO",
+       "available": true
+      },
+      {
+       "title": "Fire extinguisher",
+       "icon": "SYSTEM_FIRE_EXTINGUISHER",
+       "available": true
+      },
+      {
+       "title": "First aid kit",
+       "icon": "SYSTEM_FIRST_AID_KIT",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Internet and office",
+     "items": [
+      {
+       "title": "Wifi",
+       "icon": "SYSTEM_WI_FI",
+       "available": true
+      },
+      {
+       "title": "Dedicated workspace",
+       "icon": "SYSTEM_WORKSPACE",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Kitchen and dining",
+     "items": [
+      {
+       "title": "Kitchen",
+       "icon": "SYSTEM_COOKING_BASICS",
+       "available": true
+      },
+      {
+       "title": "Refrigerator",
+       "icon": "SYSTEM_REFRIGERATOR",
+       "available": true
+      },
+      {
+       "title": "Microwave",
+       "icon": "SYSTEM_MICROWAVE",
+       "available": true
+      },
+      {
+       "title": "Cooking basics",
+       "icon": "SYSTEM_COOKING_BASICS",
+       "available": true
+      },
+      {
+       "title": "Dishes and silverware",
+       "icon": "SYSTEM_DISHES_AND_SILVERWARE",
+       "available": true
+      },
+      {
+       "title": "Freezer",
+       "icon": "SYSTEM_REFRIGERATOR",
+       "available": true
+      },
+      {
+       "title": "Dishwasher",
+       "icon": "SYSTEM_DISHWASHER",
+       "available": true
+      },
+      {
+       "title": "Stove",
+       "icon": "SYSTEM_STOVE",
+       "available": true
+      },
+      {
+       "title": "Oven",
+       "icon": "SYSTEM_OVEN",
+       "available": true
+      },
+      {
+       "title": "Hot water kettle",
+       "icon": "SYSTEM_WATER_KETTLE",
+       "available": true
+      },
+      {
+       "title": "Coffee maker",
+       "icon": "SYSTEM_COFFEE_MAKER",
+       "available": true
+      },
+      {
+       "title": "Toaster",
+       "icon": "SYSTEM_TOASTER",
+       "available": true
+      },
+      {
+       "title": "Baking sheet",
+       "icon": "SYSTEM_BAKING_SHEET",
+       "available": true
+      },
+      {
+       "title": "Blender",
+       "icon": "SYSTEM_BLENDER",
+       "available": true
+      },
+      {
+       "title": "Barbecue utensils",
+       "icon": "SYSTEM_GRILL",
+       "available": true
+      },
+      {
+       "title": "Dining table",
+       "icon": "SYSTEM_DINING_TABLE",
+       "available": true
+      },
+      {
+       "title": "Coffee",
+       "icon": "SYSTEM_COFFEE_MAKER",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Location features",
+     "items": [
+      {
+       "title": "Private entrance",
+       "icon": "SYSTEM_DOOR",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Outdoor",
+     "items": [
+      {
+       "title": "Backyard",
+       "icon": "SYSTEM_FLOWER",
+       "available": true
+      },
+      {
+       "title": "BBQ grill",
+       "icon": "SYSTEM_GRILL",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Parking and facilities",
+     "items": [
+      {
+       "title": "Free parking on premises",
+       "icon": "SYSTEM_MAPS_CAR_RENTAL",
+       "available": true
+      }
+     ]
+    },
+    {
+     "group": "Services",
+     "items": [
+      {
+       "title": "Pets allowed",
+       "icon": "SYSTEM_PETS",
+       "available": true
+      },
+      {
+       "title": "Luggage dropoff allowed",
+       "icon": "SYSTEM_LUGGAGE_DROP",
+       "available": true
+      },
+      {
+       "title": "Long term stays allowed",
+       "icon": "SYSTEM_CALENDAR",
+       "available": true
+      },
+      {
+       "title": "Self check-in",
+       "icon": "SYSTEM_KEY",
+       "available": true
+      },
+      {
+       "title": "Smart lock",
+       "icon": "SYSTEM_LOCK_ON_DOOR",
+       "available": true
+      },
+      {
+       "title": "Housekeeping available every day",
+       "icon": "SYSTEM_CLEAN",
+       "available": true
+      }
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "title": "Up to 10 overnight guests",
+     "detail": null,
+     "type": "HOUSE_RULES_PERSON_CAPACITY"
+    },
+    {
+     "title": "Pets allowed",
+     "detail": "2 maximum",
+     "type": "HOUSE_RULES_PETS"
+    },
+    {
+     "title": "No smoking",
+     "detail": "Including vaping and e-cigarettes",
+     "type": "HOUSE_RULES_SMOKING_ALLOWED"
+    },
+    {
+     "title": "Quiet hours",
+     "detail": "10:00 PM - 7:00 AM",
+     "type": "HOUSE_RULES_QUIET_HOURS"
+    },
+    {
+     "title": "No parties or events",
+     "detail": null,
+     "type": "HOUSE_RULES_EVENTS_ALLOWED"
+    },
+    {
+     "title": "Commercial photography allowed",
+     "detail": "Including commercial filming",
+     "type": "HOUSE_RULES_COMMERCIAL_PHOTOGRAPHY_ALLOWED"
+    }
+   ],
+   "check_in": "Check in after 4:00 PM",
+   "check_out_items": [
+    "Check out before 10:00 AM",
+    "Self check-in with smart lock"
+   ],
+   "safety": [
+    "Exterior security cameras on property",
+    "Carbon monoxide alarm installed",
+    "Smoke alarm installed"
+   ],
+   "rating": {
+    "overall": 4.9,
+    "count": 31,
+    "categories": {
+     "cleanliness": 4.81,
+     "accuracy": 4.97,
+     "checkin": 4.9,
+     "communication": 5.0,
+     "location": 4.84,
+     "value": 4.94
+    }
+   },
+   "reviews": [
+    {
+     "name": "Kimberly",
+     "date": "2026-10-04",
+     "rating": 4,
+     "text": "The place was very much as expected and described. There was a little bit more of a rustic, feeling in spots that we were expecting, but it met our needs, everybody had a bed and clean sheets, and the kitchen is very easy to utilize, well labeled. The location was perfect for our needs.",
+     "lang": "en"
+    },
+    {
+     "name": "Karen",
+     "date": "2026-10-11",
+     "rating": 5,
+     "text": "Comfortable beds, very spacious, nice to have coffee provided. Manuel was extremely responsive.",
+     "lang": "en"
+    },
+    {
+     "name": "Karrah",
+     "date": "2026-10-18",
+     "rating": 4,
+     "text": "Thank you for helping us figure out little issues.",
+     "lang": "en"
+    },
+    {
+     "name": "Jason",
+     "date": "2026-09-25",
+     "rating": 5,
+     "text": "Great place to stay.  The host is always responsive.",
+     "lang": "en"
+    },
+    {
+     "name": "Winea",
+     "date": "2026-06-22",
+     "rating": 5,
+     "text": "We had a great stay overall. The home was exactly as described, clean, comfortable, and well-maintained. The host was friendly, responsive, and quick to answer any questions we had throughout our stay. The only minor issue was that some of the cooking/eating utensils had stains on them, but I was able to clean them before use without any problem. Aside from that, everything was wonderful. The house was amazing, and the host made the experience enjoyable. I would definitely stay here again and recommend this property to others.",
+     "lang": "en"
+    },
+    {
+     "name": "Jason",
+     "date": "2026-09-18",
+     "rating": 5,
+     "text": "Great place to stay. Owner is great to work with.",
+     "lang": "en"
+    },
+    {
+     "name": "Jason",
+     "date": "2026-09-10",
+     "rating": 5,
+     "text": "Great place to stay. The host is very helpful and responsive. Would highly recommend to anyone.",
+     "lang": "en"
+    },
+    {
+     "name": "Gina",
+     "date": "2026-09-20",
+     "rating": 5,
+     "text": "Nico Villa was spacious and clean and a quick 20 drive to Fayetteville for the game. We had everything we needed. In cooler weather we would have enjoyed the outdoor space! And we felt good participating in the charitable work supported by our host ❤️",
+     "lang": "en"
+    },
+    {
+     "name": "Michele",
+     "date": "2026-06-14",
+     "rating": 5,
+     "text": "Such a wonderful, kind host who was quick to respond and willing to help how he could!",
+     "lang": "en"
+    },
+    {
+     "name": "Andrew",
+     "date": "2026-05-25",
+     "rating": 5,
+     "text": "The home was far better than I could’ve ever hoped. My prior reservation had scheduling issues so I had to pivot and find a spot last minute to be a backup. As soon as I booked Manuel was messaging me within five minutes. I was able to be fully checked in and unpacked in an hour from my other reservation being canceled.  The home is very open and large. Great for hosting a big family. Not a single amenity is missed from the ping pong table to the smart home speaker. Will be the only place I ever book when I’m in town to visit family.",
+     "lang": "en"
+    },
+    {
+     "name": "Matthew",
+     "date": "2026-06-06",
+     "rating": 5,
+     "text": "Courteous host, continuously checked in to see if anything was needed. Clean house. Everything was in order.",
+     "lang": "en"
+    },
+    {
+     "name": "Jose Eusebio",
+     "date": "2026-05-19",
+     "rating": 5,
+     "text": "Me and my now wife got married at sasphros. Vineyard, it's about 14 minute drive from this property. Check-in was easy. Whose was super friendly. im definitely booking it again at next time i'm out here.",
+     "lang": "en"
+    },
+    {
+     "name": "Oliver",
+     "date": "2026-05-16",
+     "rating": 5,
+     "text": "My family and I had such a wonderful time staying here! It’s a fantastic spot, conveniently located near where our daughter graduated from Springdale High School, and also close to our family and friends’ homes. We had a blast chatting and playing ping pong, and the place is huge enough for our family to have a big dinner. I really enjoyed talking with families and friends outside the house, where there’s a little outdoor furniture set for hanging out. We absolutely love this place; it feels like home. We’re planning to come back very soon, and we will!",
+     "lang": "en"
+    },
+    {
+     "name": "Paula",
+     "date": "2026-05-10",
+     "rating": 5,
+     "text": "What a beautiful and super clean place to stay. Everything we needed was there. We look forward to staying again if we’re ever in town! Thank you so much.",
+     "lang": "en"
+    },
+    {
+     "name": "Kim",
+     "date": "2026-05-09",
+     "rating": 5,
+     "text": "Perfect house for large group.",
+     "lang": "en"
+    },
+    {
+     "name": "Christopher",
+     "date": "2026-04-30",
+     "rating": 5,
+     "text": "Friendly host. Would stay again.",
+     "lang": "en"
+    },
+    {
+     "name": "Dorothy",
+     "date": "2026-04-26",
+     "rating": 5,
+     "text": "This was a great space for our family! Boys on one end, girls on the other, us in the middle. The kitchen was lovely, and we all enjoyed the open floor plan, ping pong table, and free wifi. Hit up Mirabella’s for brunch for a great experience and La Sirenita for authentic El Salvadoran pupusas with the family.",
+     "lang": "en"
+    },
+    {
+     "name": "Guadalupe",
+     "date": "2026-04-25",
+     "rating": 5,
+     "text": "Always responds within minutes and the house was super clean. Very friendly and nice, beautiful house and all the rooms are spacious. The house is beautiful!",
+     "lang": "en"
+    },
+    {
+     "name": "Tanner",
+     "date": "2024-11-03",
+     "rating": 5,
+     "text": "We had a great stay! 20 min from the football stadium and 20 min from Dickson! The ping pong table was a hit and having TVs in the upstairs rooms was super nice. The layout of the airbnb is perfect for big groups. We will definitely be booking this house again!!!",
+     "lang": "en"
+    },
+    {
+     "name": "Daniel",
+     "date": "2024-10-06",
+     "rating": 5,
+     "text": "Manuel was very attentive and responsive to questions we had on check in and during our stay. We had issues with the Wi-Fi, and Manuel was on top of getting it connected for us. There is plenty of room and the place is clean and comfortable. We had to take our daughter to breakfast in the morning, so we missed out on his offer to bring breakfast.  I would definitely stay at Manuels place the next time we are in Fayetteville.",
+     "lang": "en"
+    },
+    {
+     "name": "Aimee",
+     "date": "2024-10-10",
+     "rating": 4,
+     "text": "The place was roomy, clean, and very nice! Overall, we enjoyed our overnight stay. The home was beautiful, and the Nicaraguan breakfast was a wonderful touch! A warning to future guests, there was no Internet access during quiet hours, therefore the televisions and tablet didn’t work during that time.",
+     "lang": "en"
+    },
+    {
+     "name": "Brenda",
+     "date": "2024-10-05",
+     "rating": 5,
+     "text": "Clean, spacious comfortable. Great host friendly staff. Nice breakfast provided. Drawers and cabinets well labeled. I’d not hesitate to stay there again.",
+     "lang": "en"
+    },
+    {
+     "name": "Elmer",
+     "date": "2024-09-06",
+     "rating": 5,
+     "text": "I had an amazing stay at Manuel. The place was spotless, stylish, and had everything ! needed. The location was perfect.",
+     "lang": "en"
+    },
+    {
+     "name": "Olivia",
+     "date": "2024-09-30",
+     "rating": 5,
+     "text": "Absolutely wonderful bnb. Me and my friends had a wonderful time here while visiting for Oktoberfest!",
+     "lang": "en"
+    },
+    {
+     "name": "Kevin",
+     "date": "2024-09-29",
+     "rating": 5,
+     "text": "Can't say enough about our time here. It was a perfect place for kids and adults alike to have space and spend time together.",
+     "lang": "en"
+    },
+    {
+     "name": "Rodrigo",
+     "date": "2024-09-22",
+     "rating": 5,
+     "text": "Great place to stay!",
+     "lang": "en"
+    },
+    {
+     "name": "J D",
+     "date": "2024-09-28",
+     "rating": 5,
+     "text": "Great instructions easy access house was exactly as advertised very clean also",
+     "lang": "en"
+    },
+    {
+     "name": "Kat",
+     "date": "2024-09-14",
+     "rating": 5,
+     "text": "Exactly as described. Manuel was a great communicator!",
+     "lang": "en"
+    },
+    {
+     "name": "Hannah",
+     "date": "2024-09-26",
+     "rating": 5,
+     "text": "Manuel was a great host and we loved this house!",
+     "lang": "en"
+    },
+    {
+     "name": "Ricardo",
+     "date": "2024-09-02",
+     "rating": 5,
+     "text": "perfect place to stay!!",
+     "lang": "en"
+    },
+    {
+     "name": "Jessica",
+     "date": "2024-09-15",
+     "rating": 5,
+     "text": "Cute place with nice amenities",
+     "lang": "en"
+    }
+   ],
+   "review_tags": [
+    {
+     "name": "Hospitality",
+     "count": 16,
+     "summary": "The host is friendly, responsive, and always quick to help."
+    },
+    {
+     "name": "Cleanliness",
+     "count": 11,
+     "summary": "Most guests find the home clean, with some calling it super clean or spotless."
+    },
+    {
+     "name": "Layout",
+     "count": 2,
+     "summary": null
+    },
+    {
+     "name": "Family",
+     "count": 4,
+     "summary": "Guests said the spacious home was great for families, including kids and large groups."
+    },
+    {
+     "name": "Kitchen",
+     "count": 3,
+     "summary": null
+    },
+    {
+     "name": "Accuracy",
+     "count": 4,
+     "summary": "The home is exactly as described and matches the listing."
+    },
+    {
+     "name": "Indoor spaces",
+     "count": 5,
+     "summary": "The home is spacious with an open floor plan and beautiful, roomy interiors."
+    },
+    {
+     "name": "Outdoor spaces",
+     "count": 2,
+     "summary": null
+    },
+    {
+     "name": "Comfort",
+     "count": 4,
+     "summary": "The home is comfortable, offering a nice and relaxed stay."
+    },
+    {
+     "name": "Check-in",
+     "count": 3,
+     "summary": "Check-in is easy, and the host is attentive and responsive."
+    }
+   ],
+   "host": {
+    "name": "Manuel",
+    "superhost": true,
+    "rating": 4.83,
+    "reviews": 36,
+    "years": 2,
+    "response": [
+     "Response rate: 100%",
+     "Responds within an hour"
+    ],
+    "about": "We are dedicated hosts offering a cozy stay in Springdale, Arkansas. Our property is perfect for professionals, families, or anyone visiting the area. What sets us apart? A warm welcome and a comfortable home designed to make your stay relaxing and enjoyable."
+   }
+  }
+ ]
+}
