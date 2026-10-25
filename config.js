@@ -7,7 +7,7 @@ window.SITE_CONFIG = {
   host_name: "Manuel",
   // Booking backend (Cloudflare Worker / box fallback). Empty = demo mode: the full flow works,
   // but the last step shows "Payment setup pending" and nothing is charged.
-  api_base: "",
+  api_base: "https://book-house-local-api.ybookhouselocalbookhouselocal.workers.dev",
   max_nights: 27,                            // longer stays: ask the host (Airbnb won't quote 28+ online)
   // Arkansas lodging taxes come from data/rates.json → taxes (source: tools/taxes.json). Nothing to set here.
   // Firm cancellation policy. The refund math lives in backend/quote.js (refundFor); keep the numbers in sync.
