@@ -28,7 +28,7 @@ img{max-width:100%;display:block}button{font:inherit;cursor:pointer;color:inheri
 .hero-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,25,20,.15) 0%,rgba(15,25,20,.25) 40%,rgba(15,25,20,.82) 100%)}
 .hero-copy{position:relative;width:100%;max-width:1180px;margin:0 auto;padding:120px 20px 34px}
 .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:600;opacity:.9;margin:0 0 10px}
-.hero h1{font:600 clamp(36px,7vw,72px)/1.02 var(--serif);margin:0 0 14px;max-width:780px;letter-spacing:-.02em}
+.hero h1,.hero .h1{font:600 clamp(36px,7vw,72px)/1.02 var(--serif);margin:0 0 14px;max-width:780px;letter-spacing:-.02em}
 .hero-sub{font-size:clamp(16px,2.2vw,19px);max-width:620px;opacity:.95;margin:0 0 24px}
 .search{display:grid;grid-template-columns:1fr 1fr;gap:8px;background:#fff;color:var(--ink);border-radius:22px;padding:10px;box-shadow:var(--sh);max-width:920px}
 .search label{display:flex;flex-direction:column;padding:6px 12px;border-radius:14px;background:var(--bg);font-size:12px;font-weight:600;color:var(--soft)}
@@ -50,7 +50,7 @@ img{max-width:100%;display:block}button{font:inherit;cursor:pointer;color:inheri
 .chip{flex:none;border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font-size:14px;font-weight:500;white-space:nowrap}.chip:hover,.chip.on{border-color:var(--ink);background:var(--ink);color:#fff}
 /* detail */
 .detail-grid{display:grid;gap:40px;margin-top:28px}@media(min-width:960px){.detail-grid{grid-template-columns:1fr 400px}}
-.d-head h2{font:600 clamp(26px,3.6vw,36px)/1.15 var(--serif);margin:0}
+.d-head h1,.d-head h2{font:600 clamp(26px,3.6vw,36px)/1.15 var(--serif);margin:0}
 .d-head .sub{color:var(--soft);margin-top:6px}.d-head .ov{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .pill{background:var(--sand);border-radius:999px;padding:6px 12px;font-size:14px;font-weight:500}
 .highlights{display:grid;gap:14px;margin:28px 0;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -220,3 +220,6 @@ body[data-view="listing"] .detail{padding-top:12px}
 .modal .policy{margin:12px 0}
 .taxToggle{cursor:pointer}
 @media(min-width:960px){.demo-flag{top:auto!important;bottom:16px}}
+
+/* SEO: static area guides + intro (crawlable text) */
+.seo-area{padding:10px 20px 30px}.seo-area p,.seo-area li{max-width:780px;color:var(--soft);line-height:1.6}.seo-area ul{padding-left:20px;margin:8px 0 0}.seo-area h3{margin:22px 0 6px}.seo-area a{color:inherit}

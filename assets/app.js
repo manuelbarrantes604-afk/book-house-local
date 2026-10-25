@@ -10,6 +10,11 @@ const parse = s => { const [y, m, d] = s.split('-').map(Number); return new Date
 const addDays = (s, n) => { const d = parse(s); d.setDate(d.getDate() + n); return iso(d); };
 const nightsBetween = (a, b) => Math.round((parse(b) - parse(a)) / 864e5);
 const TODAY = iso(new Date());
+// Site root (absolute), from this script's own URL, so pages in sub-folders (/bentonville/, /springdale/) and a custom domain all work.
+const ROOT = ((document.currentScript && document.currentScript.src) || location.href).replace(/assets\/app\.js.*$/, '');
+const ROOT_PATH = new URL(ROOT).pathname;
+const abs = u => !u || /^(https?:|data:|\/)/.test(u) ? u : ROOT + u;
+const homePath = s => ROOT_PATH + s + '/';
 
 /* ---------- i18n ---------- */
 const T = {
@@ -138,7 +143,9 @@ function applyLang() {
 function renderAll() { renderNav(); renderTitle(); if (S.view === 'index') { renderHeroSearch(); renderFilter(); renderListings(); }
   else { renderCrumbs(); renderDetail(); renderBook(); renderMapSide(); renderReviews(); renderHost(); } renderFAQ(); renderFresh(); }
 function renderTitle() { const tag = LANG === 'es' ? CFG.tagline_es : CFG.tagline_en;
-  document.title = S.view === 'listing' ? `${H().name} · ${H().city}, AR · ${CFG.brand}` : `${CFG.brand} · ${S.loc === 'all' ? tag : locName(S.loc) + ', AR'}`; }
+  document.title = S.view === 'listing' ? `${H().name} · ${H().city}, AR Vacation Rental · ${CFG.brand}` : `${CFG.brand} · ${S.loc === 'all' ? (LANG === 'es' ? 'Casas vacacionales en el Noroeste de Arkansas' : 'Vacation Rentals in Northwest Arkansas') : locName(S.loc) + ', AR'}`;
+  const c = $('link[rel=canonical]'); if (c) c.href = location.origin + (S.view === 'listing' ? homePath(S.home) : ROOT_PATH);
+  $$('[data-area]').forEach(e => e.hidden = !(S.view === 'listing' && e.dataset.area === S.home)); }
 function renderNav() {
   const items = S.view === 'index' ? [['#homes', 'nav_homes'], ['#faq', 'nav_faq']] : [['#detail', 'nav_photos'], ['#map', 'nav_map'], ['#reviews', 'nav_reviews'], ['#faq', 'nav_faq']];
   $('#nav').innerHTML = items.map(([h, k]) => `<a href="${h}">${t(k)}</a>`).join('');
@@ -163,7 +170,7 @@ function renderHeroSearch() {
   $('#hsIn').min = TODAY; $('#hsOut').min = addDays(TODAY, 1);
   if (S.ci) $('#hsIn').value = S.ci; if (S.co) $('#hsOut').value = S.co;
 }
-function listingHref(s) { const p = new URLSearchParams(); p.set('home', s); if (S.ci) p.set('in', S.ci); if (S.co) p.set('out', S.co); if (S.guests !== 2) p.set('guests', S.guests); return '?' + p; }
+function listingHref(s) { const p = new URLSearchParams(); if (S.ci) p.set('in', S.ci); if (S.co) p.set('out', S.co); if (S.guests !== 2) p.set('guests', S.guests); const q = p.toString(); return homePath(s) + (q ? '?' + q : ''); }
 function renderListings() {
   const slugs = homesIn(S.loc);
   $('#listTitle').textContent = S.loc === 'all' ? t('homes_all') : t('homes_in', { c: locName(S.loc) });
@@ -183,7 +190,7 @@ function renderListings() {
 }
 function renderCrumbs() {
   const h = H(), loc = locOf(S.home);
-  $('#crumbs').innerHTML = `<a href="./" data-nav="index" class="link">← ${t('back_all')}</a><span>/</span><a href="?loc=${loc}" data-nav="index" data-navloc="${loc}" class="link">${esc(locName(loc))}</a><span>/</span><b>${esc(h.name)}</b>`;
+  $('#crumbs').innerHTML = `<a href="${ROOT_PATH}" data-nav="index" class="link">← ${t('back_all')}</a><span>/</span><a href="${ROOT_PATH}?loc=${loc}" data-nav="index" data-navloc="${loc}" class="link">${esc(locName(loc))}</a><span>/</span><b>${esc(h.name)}</b>`;
 }
 /* ---------- detail ---------- */
 const AMEN_IC = [['wifi', '📶'], ['tv', '📺'], ['kitchen', '🍳'], ['washer', '🧺'], ['dryer', '🌀'], ['parking', '🚗'], ['air', '❄️'], ['heat', '🔥'], ['fireplace', '🔥'], ['workspace', '💻'], ['pet', '🐾'], ['grill', '🍖'], ['bbq', '🍖'], ['coffee', '☕'],
@@ -196,10 +203,10 @@ const HL_IC = ['📍', '🏡', '💬'];
 function renderDetail() {
   const h = H();
   const ph = h.photos;
-  $('#gallery').innerHTML = ph.slice(0, 5).map((p, i) => `<button data-lb="${i}" style="background-image:url('${i ? p.thumb.replace('-s.jpg', '.jpg') : p.src}')" aria-label="${esc(room(p.room || ''))}"></button>`).join('') +
+  $('#gallery').innerHTML = ph.slice(0, 5).map((p, i) => `<button data-lb="${i}" style="background-image:url('${i ? p.thumb.replace('-s.jpg', '.jpg') : p.src}')" aria-label="${esc(h.name + ', ' + h.city + ', AR · ' + room(p.room || ''))}"></button>`).join('') +
     `<button class="all" data-lb="0">▦ ${t('show_all')} · ${ph.length}</button>`;
   const rooms = [...new Set(ph.map(p => p.room).filter(Boolean))];
-  $('#dHead').innerHTML = `<h2>${esc(h.title)}</h2><div class="sub">${esc(h.city)}, Arkansas · <span class="star">★</span> <b>${h.rating.overall}</b> · <a href="#reviews" class="link">${t('reviews_n', { n: h.rating.count })}</a></div>
+  $('#dHead').innerHTML = `<h1>${esc(h.title)}</h1><div class="sub">${LANG === 'es' ? 'Casa vacacional en' : 'Vacation rental in'} ${esc(h.city)}, Arkansas · <span class="star">★</span> <b>${h.rating.overall}</b> · <a href="#reviews" class="link">${t('reviews_n', { n: h.rating.count })}</a></div>
     <div class="ov">${h.overview.map(o => `<span class="pill">${esc(o)}</span>`).join('')}</div>
     <div class="room-chips" aria-label="${t('home_tour')}">${rooms.map(r => `<button class="chip" data-room="${esc(r)}">${esc(room(r))}</button>`).join('')}</div>`;
   $('#dHighlights').innerHTML = h.highlights.map((x, i) => `<div class="hl"><div class="ic">${HL_IC[i] || '✨'}</div><div><b>${esc(x.title)}</b><span>${esc(x.body)}</span></div></div>`).join('');
@@ -390,11 +397,11 @@ function openLB(i, roomName) {
   const all = H().photos; LB.room = roomName || null; LB.list = LB.room ? all.filter(p => p.room === LB.room) : all; LB.i = Math.max(0, Math.min(i, LB.list.length - 1));
   const rooms = [...new Set(all.map(p => p.room).filter(Boolean))];
   $('#lbChips').innerHTML = `<button class="chip ${!LB.room ? 'on' : ''}" data-lbroom="">${t('all')} · ${all.length}</button>` + rooms.map(r => `<button class="chip ${LB.room === r ? 'on' : ''}" data-lbroom="${esc(r)}">${esc(room(r))}</button>`).join('');
-  $('#lbStrip').innerHTML = LB.list.map((p, k) => `<img src="${p.thumb}" data-k="${k}" loading="lazy" alt="">`).join('');
+  $('#lbStrip').innerHTML = LB.list.map((p, k) => `<img src="${p.thumb}" data-k="${k}" loading="lazy" alt="${esc(room(p.room || ''))}">`).join('');
   $('#lb').hidden = false; document.body.style.overflow = 'hidden'; showLB();
 }
 function showLB() {
-  const p = LB.list[LB.i]; const img = $('#lbImg'); img.style.opacity = .3; img.onload = () => img.style.opacity = 1; img.src = p.src; img.alt = room(p.room || '');
+  const p = LB.list[LB.i]; const img = $('#lbImg'); img.style.opacity = .3; img.onload = () => img.style.opacity = 1; img.src = p.src; img.alt = (H() ? H().name + ', ' + H().city + ', AR · ' : '') + room(p.room || '');
   $('#lbCap').textContent = room(p.room || ''); $('#lbCount').textContent = `${LB.i + 1} / ${LB.list.length}`;
   $$('#lbStrip img').forEach((im, k) => im.classList.toggle('on', k === LB.i)); const on = $('#lbStrip img.on'); if (on) on.scrollIntoView({ inline: 'center', block: 'nearest' });
   [LB.list[LB.i + 1], LB.list[LB.i - 1]].forEach(n => { if (n) new Image().src = n.src; });
@@ -456,11 +463,14 @@ function show(view, push) {
 }
 function openHome(s) { if (!HOMES[s]) return; S.home = s; show('listing', true); scrollTo(0, 0); }
 function openIndex(loc) { if (loc) S.loc = loc; show('index', true); scrollTo(0, 0); }
-function urlFor() { const p = new URLSearchParams(); if (S.view === 'listing') p.set('home', S.home); else if (S.loc !== 'all') p.set('loc', S.loc);
-  if (S.ci) p.set('in', S.ci); if (S.co) p.set('out', S.co); if (S.guests !== 2) p.set('guests', S.guests); const q = p.toString(); return location.pathname + (q ? '?' + q : ''); }
+function urlFor() { const p = new URLSearchParams(); if (S.view !== 'listing' && S.loc !== 'all') p.set('loc', S.loc);
+  if (S.ci) p.set('in', S.ci); if (S.co) p.set('out', S.co); if (S.guests !== 2) p.set('guests', S.guests); const q = p.toString(); return (S.view === 'listing' ? homePath(S.home) : ROOT_PATH) + (q ? '?' + q : ''); }
 function syncUrl() { history.replaceState(null, '', urlFor() + location.hash); }
 function readUrl() { const p = new URLSearchParams(location.search);
-  S.view = HOMES[p.get('home')] ? 'listing' : 'index'; if (S.view === 'listing') S.home = p.get('home');
+  // Each home has its own page (/bentonville/, /springdale/); old ?home=slug links keep working.
+  const seg = location.pathname.startsWith(ROOT_PATH) ? location.pathname.slice(ROOT_PATH.length).split('/')[0] : '';
+  const hs = HOMES[p.get('home')] ? p.get('home') : HOMES[seg] ? seg : null;
+  S.view = hs ? 'listing' : 'index'; if (hs) S.home = hs;
   S.loc = CFG.locations.some(l => l.id === p.get('loc')) ? p.get('loc') : 'all';
   S.ci = p.get('in') || null; S.co = p.get('out') || null; if (+p.get('guests')) S.guests = Math.min(10, Math.max(1, +p.get('guests')));
   if (S.ci && !(S.ci >= TODAY)) S.ci = S.co = null;
@@ -523,8 +533,8 @@ function bind() {
 /* ---------- boot ---------- */
 async function boot() {
   const v = Date.now();
-  const [h, r, g] = await Promise.all([fetch('data/homes.json').then(x => x.json()), fetch('data/rates.json?v=' + Math.floor(v / 6e5)).then(x => x.json()), fetch('data/greenway.json').then(x => x.json()).catch(() => null)]);
-  h.homes.forEach(x => HOMES[x.slug] = x); RATES = r; GREEN = g;
+  const [h, r, g] = await Promise.all([fetch(ROOT + 'data/homes.json').then(x => x.json()), fetch(ROOT + 'data/rates.json?v=' + Math.floor(v / 6e5)).then(x => x.json()), fetch(ROOT + 'data/greenway.json').then(x => x.json()).catch(() => null)]);
+  h.homes.forEach(x => { x.photos.forEach(ph => { ph.src = abs(ph.src); ph.thumb = abs(ph.thumb); }); (x.rooms || []).forEach(r => r.img = abs(r.img)); HOMES[x.slug] = x; }); RATES = r; GREEN = g;
   const bk = readUrl();
   bind(); document.body.dataset.view = S.view; if (S.view === 'listing') fixDates(); applyLang(); if (S.view === 'listing') { initMap(); renderMapSide(); }
   if (!CFG.api_base) { const f = document.createElement('div'); f.className = 'demo-flag'; f.textContent = t('demo'); document.body.appendChild(f); }

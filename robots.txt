@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manuelbarrantes604-afk.github.io/book-house-local/sitemap.xml
