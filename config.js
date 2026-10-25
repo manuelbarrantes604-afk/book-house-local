@@ -7,7 +7,7 @@ window.SITE_CONFIG = {
   host_name: "Manuel",
   // Public address of the site (canonical URLs, sitemap, structured data). To move to a custom domain, change this
   // one line (e.g. "https://bookhouselocal.com/"), then run: python3 tools/build_seo.py  (it also writes the CNAME file).
-  site_url: "https://manuelbarrantes604-afk.github.io/book-house-local/",
+  site_url: "https://bookhousenwa.com/",
   // Booking backend (Cloudflare Worker / box fallback). Empty = demo mode: the full flow works,
   // but the last step shows "Payment setup pending" and nothing is charged.
   api_base: "https://book-house-local-api.ybookhouselocalbookhouselocal.workers.dev",
